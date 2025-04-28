@@ -14,7 +14,7 @@
 
 5. Push any code changes to `main` branch to trigger CI/CD via GitHub Actions.
 
-## Assumptions
+## Assumptions:
 
 - You are using Docker Hub for images.
 - GitHub Secrets are configured:
