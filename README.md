@@ -29,7 +29,3 @@
 - Access: `http://your-ec2-public-ip/`
 - Service is exposed via NGINX reverse proxy to the Docker container running Yii2 app.
 
-## Notes
-
-- Health checks can be added to `docker-compose.yml` under the `services` block.
-- Monitoring can be enhanced via Prometheus + Node Exporter.
