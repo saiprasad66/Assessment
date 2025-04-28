@@ -30,4 +30,4 @@ jobs:
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
           docker pull saiprasad23/yii2-app:latest
-          docker service update --image saiprasad23/yii2-app:latest yii2stack_yii2-app
+          docker service update --image saiprasad23/yii2-app:latest yii2_app
