@@ -7,6 +7,8 @@ COPY . /var/www/html/
 
 WORKDIR /var/www/html/
 
-RUN chown -R www-data:www-data /var/www/html/runtime /var/www/html/web/assets
+RUN mkdir -p /var/www/html/runtime /var/www/html/web/assets \
+    && chown -R www-data:www-data /var/www/html/runtime /var/www/html/web/assets
+
 
 EXPOSE 80
